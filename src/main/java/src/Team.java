@@ -1,6 +1,8 @@
+import java.util.Date;
+
 package src;
 
 public class Team {
     private String $name;
-    private String foundationDate;
+    private Date foundationDate;
 }
