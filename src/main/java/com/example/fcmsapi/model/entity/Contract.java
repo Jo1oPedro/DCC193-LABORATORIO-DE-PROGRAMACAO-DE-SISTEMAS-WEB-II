@@ -1,6 +1,6 @@
-import java.util.Date;
+package com.example.fcmsapi.model.entity;
 
-package src;
+import java.util.Date;
 
 public class Contract {
     private Date date;

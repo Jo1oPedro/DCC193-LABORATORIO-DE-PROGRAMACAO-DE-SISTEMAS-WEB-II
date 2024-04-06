@@ -1,4 +1,4 @@
-package src;
+package com.example.fcmsapi.model.entity;
 
 public class TeamStatus {
     private Integer points;
