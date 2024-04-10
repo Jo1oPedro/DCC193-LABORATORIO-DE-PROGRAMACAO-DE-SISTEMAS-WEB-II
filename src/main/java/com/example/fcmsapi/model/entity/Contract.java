@@ -1,10 +1,8 @@
 package com.example.fcmsapi.model.entity;
 
 import java.util.Date;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,4 +18,7 @@ public class Contract {
     private Date date;
     private Integer value;
     private String duration;
+
+    @ManyToOne
+    private Team team;
 }

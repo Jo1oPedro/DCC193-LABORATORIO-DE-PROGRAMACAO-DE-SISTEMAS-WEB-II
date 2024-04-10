@@ -18,6 +18,7 @@ public class Match {
     private Date date;
     private Integer audienceNumber;
     private Team winner;
+    private Team loser;
 
     @ManyToOne
     private Championship championship;
