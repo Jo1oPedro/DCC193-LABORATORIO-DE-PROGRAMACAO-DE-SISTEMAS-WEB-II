@@ -17,7 +17,9 @@ public class Match {
     private long id;
     private Date date;
     private Integer audienceNumber;
+    @ManyToOne
     private Team winner;
+    @ManyToOne
     private Team loser;
 
     @ManyToOne
