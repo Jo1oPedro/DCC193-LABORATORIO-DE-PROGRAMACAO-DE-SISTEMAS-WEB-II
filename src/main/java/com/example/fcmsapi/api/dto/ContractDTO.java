@@ -11,9 +11,6 @@ import org.modelmapper.ModelMapper;
 
 import java.util.Date;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class ContractDTO {
 
     private long id;

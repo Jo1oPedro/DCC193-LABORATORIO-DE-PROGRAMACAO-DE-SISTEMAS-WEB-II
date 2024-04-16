@@ -8,7 +8,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.modelmapper.ModelMapper;
 
-@Data
 public class CoachDTO {
 
     private String favoritePlaystyle;

@@ -9,16 +9,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.modelmapper.ModelMapper;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class ChampionshipDTO {
     private long id;
     private String name;
-
-    @ManyToOne
     private Team winner;
-    @ManyToOne
 
     private Team currentLeader;
     public static ChampionshipDTO create(Championship championship) {

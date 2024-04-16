@@ -6,7 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.modelmapper.ModelMapper;
 
-@Data
 public class AdminDTO {
     public static AdminDTO create(Admin admin) {
         ModelMapper modelMapper = new ModelMapper();
